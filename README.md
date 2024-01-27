@@ -18,11 +18,11 @@ Library management system is written in [.NET](https://learn.microsoft.com/tr-tr
   ```bash
     dotnet restore
   ```
-  - To load the migrations:
+- To load the migrations:
   ```bash
     dotnet ef migrations add InitialCreate
   ```
-  - And:
+- And:
   ```bash
     dotnet ef database update
   ```
